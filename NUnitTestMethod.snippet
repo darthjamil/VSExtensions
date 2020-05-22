@@ -5,16 +5,18 @@
             <Title>NUnit Test Method</Title>
             <Description>Inserts an NUnit test method stub.</Description>
             <Shortcut>testu</Shortcut>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
         </Header>
         <Snippet>
-            <Code Language="CSharp">
+            <Code Language="CSharp" Kind="method decl">
                 <![CDATA[
                 [Test]
                 public void $Name$()
                 {
-                    
-                }
-                ]]>
+                    $end$
+                }]]>
             </Code>
             <Declarations>
                 <Literal>
